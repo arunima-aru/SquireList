@@ -1,4 +1,4 @@
-package com.example.aethanalyticandroidmachinetest.api
+package com.example.aethanalyticandroidmachinetest
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

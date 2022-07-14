@@ -1,7 +1,6 @@
-package com.example.aethanalyticandroidmachinetest
+package com.example.aethanalyticandroidmachinetest.api
 
 import android.content.Context
-import com.example.aethanalyticandroidmachinetest.api.ApiService
 import com.example.aethanalyticandroidmachinetest.api.Constant.BASE_URL
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient

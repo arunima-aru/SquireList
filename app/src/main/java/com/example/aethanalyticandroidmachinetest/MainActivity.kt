@@ -5,7 +5,7 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.aethanalyticandroidmachinetest.api.SquareListAdapter
+import com.example.aethanalyticandroidmachinetest.api.RetrofitClient
 import com.example.aethanalyticandroidmachinetest.dataClass.Model
 import com.example.aethanalyticandroidmachinetest.dataClass.ModelItem
 import com.example.aethanalyticandroidmachinetest.databinding.ActivityMainBinding
