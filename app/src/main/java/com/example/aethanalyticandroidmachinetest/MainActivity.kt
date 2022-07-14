@@ -1,8 +1,8 @@
 package com.example.aethanalyticandroidmachinetest
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.aethanalyticandroidmachinetest.api.SquareListAdapter
@@ -48,11 +48,9 @@ class MainActivity : AppCompatActivity() {
                     Log.v("Recipient response : ", response.body().toString())
                     val result = response.body()
                     if (result != null) {
-//                        for (i in result.indices) {
-                            list.addAll(result)
-                            squareListAdapter.notifyDataSetChanged()
 
-//                        }
+                        list.addAll(result)
+                        squareListAdapter.notifyDataSetChanged()
 
                     }
                 }
